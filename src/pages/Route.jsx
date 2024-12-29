@@ -5,6 +5,7 @@
 // import Contacts from "./Contacts";
 // import Home from "./Home";
 import { lazy } from "react";
+import { createBrowserRouter } from "react-router-dom";
 const Home=lazy(()=>import("./Home"));
 const Contacts=lazy(()=>import("./Contacts"));
 const Signup=lazy(()=>import("./Signup"));
